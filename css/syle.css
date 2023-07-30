@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #7CDAEF;
+}
+.container{
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+.sky-one{
+    position: absolute;
+    right: -177.89px;
+    top: -45.08px;
+    z-index: 2;
+}
+.sky-two{
+    position: absolute;
+    left: -206px;
+    top: 165px;
+    z-index: -1;
+}
+.sky-three{
+    position: absolute;
+    right: -210px;
+    top: 440px;
+    z-index: -1;
+}
+.blue{
+    background: rgba(14, 73, 126, 0.70);
+    margin-top: 104px;
+    position: relative;
+    z-index: 1;
+}
+h1{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Play', sans-serif;
+    padding-top: 99px;
+    margin-left: 78px;
+    margin-bottom: 24px;
+}
+h2{
+    color: #FFF;
+    font-size: 32px;
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    margin-top: 36px;
+    margin-left: 78px;
+    margin-bottom: 51px;
+}
+p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: 400;
+    margin-left: 78px;
+    margin-right: 79px;
+    margin-top: 26px;
+}
+.flex-img{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 176px;
+    gap: 10px;
+    margin-left: 78px;
+
+}
+.grass{
+    background-image: url(../image/grass.png);
+    width: 100%;
+    height: 132px;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    z-index: 5;
+}
